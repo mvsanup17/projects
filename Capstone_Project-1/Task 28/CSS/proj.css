@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=REM&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'REM', sans-serif;
+}
+
+
+#intro{
+    height: 90px;
+    background-color: lightcyan;
+}
+
+#intro h1{
+    padding: 20px 10px 50px 100px;
+}
+
+
+#pag1{
+    height: 450px;
+    background-color: yellow;
+}
+
+#pag1 img{
+    height: 200px;
+    width: 350px;
+    float: right;
+    margin: -160px 400px 100px 100px;
+}
+
+#pag1 #subdiv1 {
+    height: 200px;
+    width: 200px;
+    padding: 85px 65px 0px 400px;
+}
+
+button{
+    padding: 10px 20px 10px 20px;
+    border-style: none;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+#pag2{
+    height: 550px;
+    background-color: azure;
+}
+
+#card1{
+    height: 400px;
+    width: 275px;
+    background-color: yellow;
+    float: left;
+    margin: 50px 100px 20px 250px;
+}
+
+#card2{
+    height: 400px;
+    width: 275px;
+    background-color: yellow;
+    float: left;
+    margin: 50px 100px 20px 10px;
+}
+
+#card3{
+    height: 400px;
+    width: 275px;
+    background-color: yellow;
+    float: left;
+    margin: 50px 100px 20px 10px;
+}
+
+#subcard1{
+    height: 190px;
+    width: 190px;
+    background-color: azure;
+    margin: 30px 20px 10px 45px;
+    border-radius: 15px;
+}
+
+#subcard2{
+    height: 190px;
+    width: 190px;
+    background-color: azure;
+    margin: 30px 20px 10px 45px;
+    border-radius: 15px;
+}
+
+#subcard3{
+    height: 190px;
+    width: 190px;
+    background-color: azure;
+    margin: 30px 20px 10px 45px;
+    border-radius: 15px;
+}
+
+#subcard1 img{
+    height: 100px;
+    width: 150px;
+    margin: 38px 20px;
+}
+
+#subcard2 img{
+    height: 100px;
+    width: 150px;
+    margin: 38px 20px;
+}
+
+#subcard3 img{
+    height: 100px;
+    width: 150px;
+    margin: 38px 20px;
+}
+
+#pag3{
+    height: 650px;
+    width: 800px;
+    float: left;
+    margin: 0px 140px 100px 370px;
+}
+
+#pag3 img{
+    height: 250px;
+    width: 350px;
+    margin: 0px 50px 0px 80px;
+}
+
+#conte{
+    height: 300px;
+    float: right;
+    margin: 170px 100px 0px 20px;
+}
+
+#imae {
+    height: 200px;
+    width: 300px;
+    float: right;
+}
+
+#imae img{
+    height: 200px;
+    width: 150px;
+    margin: 0px 20px 100px 70px;
+}
+
+#imae p{
+    margin: 0px 20px 100px 70px;
+}
+
+#pag4{
+    height: 400px;
+    background-color: yellow;
+    margin: 600px 0px 0px 0px;
+}
+
+#pag4 img {
+    height: 200px;
+    margin: 0px 75px 0px 0px;
+    position: relative;
+    left: 400px;
+    bottom: 100px;
+    box-shadow: 20px 20px white;
+}
+
+#pag4 p{
+    height: 50px;
+    width: 800px;
+    margin: 0px 0px -120px 0px;
+}
+
+
+#subme{
+    height: 800px;
+}
+
+
+#bg{
+    height: 300px;
+    width: 300px;
+    margin: 0px 175px 20px 405px;
+    background-color: yellow;
+}
+
+#bg2{
+    height: 230px;
+    width: 230px;
+    background-color: aliceblue;
+    margin: 10px 10px 10px 35px;
+}
+
+#subme img{
+    height: 200px;
+    width: 350px;
+    margin: -70px 10px 10px 535px;
+}
+
+#sub3{
+    height: 200px;
+    width: 400px;
+    margin: 0px 175px 20px 605px;
+    background-color: yellow;
+}
+
+#sub3 h2{
+    margin: 0px 10px 10px 50px;
+}
+
+#pag6{
+    height: 700px;
+    background-image: url("../../Task 28/proj_img/brig.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#con{
+    height: 400px;
+    width: 250px;
+    margin: 0px 100px 0px 200px;
+    background-color: aliceblue;
+}
+
+#con img{
+    height: 100px;
+}
+
+#pag7{
+    height: 500px;
+    background-color: yellow;
+}
+
+#card{
+    height: 400px;
+    width: 500px;
+    background-color: azure;
+    margin: 5px 100px 0px 100px;
+}
+
+#ca2{
+    height: 400px;
+    width: 200px;
+    float: right; 
+
+}
+
+#subb{
+    height: 400px;
+    width: 600px;
+    float: right;
+    margin: 20px 100px 0px 200px;
+}
+
+#pag7 input[type="text"]{
+    padding: 0px 10px 0 10px;
+    border-style: none;
+}
+
+textarea{
+    border-style: none;
+}
+
+footer{
+    height: 150px;
+    background-color: grey;
+    color: white;
+}
+
+#bg3{
+    height: 200px;
+    width: 200px;
+    float: right;
+}
+
+#bg3 img{
+    height: 200px;
+    width: 200px;
+    float: right;
+    margin: 0px 0px 0px 30px;
+}
+
+h1 i{
+    float: right;
+}
+
