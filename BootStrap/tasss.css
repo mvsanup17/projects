@@ -1,0 +1,33 @@
+.card-group{
+    height: 400px;
+    width: 750px;
+}
+
+.card-img-top{
+    height: 100px;
+    width: 100px;
+    margin: 30px 5px 0px 10px;
+}
+
+
+.card-img-t{
+  height: 20px;
+  float: left;
+}
+
+i{
+    float: left;
+    margin: 10px 0px 5px 13px;
+}
+
+hr{
+    margin-right: 350px;
+    width: 40px;
+    transform: rotate(90deg);
+}
+
+
+
+
+
+
