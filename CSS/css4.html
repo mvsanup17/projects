@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .ab{
+            height: 200px;
+            width: 200px;
+            float: left;
+            background-color: aqua;
+            position: static ;
+        }
+        .cd{
+            height: 200px;
+            width: 200px;
+            float: left;
+            background-color: greenyellow;
+        }
+        .de{
+            height: 200px;
+            width: 200px;
+            float: left;
+            background-color: aquamarine;
+            position: relative;
+        }
+
+        .hi{
+            position: absolute;
+            height: 100px;
+            width: 100px;
+            background-color: pink;
+            left: 30px;
+            top: 20px;
+        }
+        .fg{
+            height: 200px;
+            width: 200px;
+            float: left;
+            background-color: yellow;
+            position: fixed;
+            top: 50px;
+            left: 60px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="ab"><h4>static</h4></div>
+    <div class="cd"><h4>relative</h4></div>
+    <div class="de"><h4>absolute</h4>
+        <div class="hi"></div>
+    </div>
+    <div class="fg"><h4>fixed</h4></div>
+</body>
+</html>

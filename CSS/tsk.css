@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=REM&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'REM', sans-serif;
+}
+
+#bar{
+    height: 1150px;
+    background-color: #DAFFFB;
+}
+
+
+i{
+    margin: 0px 5px;
+}
+
+
+a{
+    text-decoration: none;
+    margin: 35px 15px;
+    color: black;
+}
+
+#hobar{
+    height: 65px;
+    background-color: #3AA6B9;
+}
+
+#hobar ul {
+    display: flex;
+    padding: 5px 20px 20px 20px;
+    margin: 15px 50px 15px 555px;
+}
+
+#hobar ul li{
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+    list-style: none;
+    height: 20px;
+    padding: 2px 5px;
+}
+
+#hobar ul li:hover{
+    background-color: white;
+    border: 2px solid black;
+}
+
+img{
+    height: 150px;
+    margin: 10px 20px 20px 36px;
+}
+
+#nvbar{
+    height: 670px;
+    width: 370px;
+    background-color: #F1F6F9;
+    padding: 70px 30px 20px 20px;
+    margin: 70px 20px 20px 85px;
+    position: absolute;
+    box-shadow: 2px 2px 2px black;
+}
+
+
+
+#sidebar{
+    height: 290px;
+    width: 790px;
+    background-color: #C9DBB2;
+    float: right;
+    margin: 90px 100px;
+    box-shadow: 2px 2px 2px black;
+}
+
+#sidebarr{
+    height: 420px;
+    width: 790px;
+    float: right;
+    background-color: #F1F6F9;
+    margin: 90px 0px;
+    box-shadow: 2px 2px 2px black;
+}
+
+label{
+    margin: 15px 10px 0px 65px;
+}
+
+input[type="text"]{
+    margin: 3px 20px 5px 25px;
+    float: right;
+    padding: 2px 200px 5px 180px;
+    border-radius: 7px;
+    border-style: none;
+}
+
+input[type="number"]{
+    margin: 3px 25px 5px 103px;
+    padding: 2px 25px 5px 10px;
+    border-radius: 7px;
+    border-style: none;
+}
+
+input[type="date"]{
+    height: 25px;
+    margin: 3px 25px 5px 120px;
+    border-style: none;
+}
+
+input[type="text"]:hover{
+    border: 2px solid black;
+}
+
+h3{
+    margin: 15px 30px 5px 40px;
+}
+
+h5{
+    margin: 25px 30px 5px 40px;
+}
+
+input[type="range"]{
+    margin: 5px 30px 5px 40px;
+}
+
+button{
+    margin: 2px 5px 0px 5px;
+    height: 25px;
+    background-color: rgb(91, 91, 255);
+    border-style: none;
+}
+
+#ab{
+    padding: 5px 400px 5px 200px;
+    margin: 5px 190px 0px 50px;
+    background-color: olivedrab;
+}
+#bc{
+    padding: 5px 400px 5px 150px;
+    margin: 5px 190px 0px 50px;
+    background-color: orange;
+}
+#cd{
+    padding: 5px 400px 5px 220px;
+    margin: 5px 190px 0px 50px;
+    background-color: yellow;
+}
+#de{
+    padding: 5px 400px 5px 250px;
+    margin: 5px 190px 0px 50px;
+    background-color: blue;
+}
+#ef{
+    padding: 5px 400px 5px 140px;
+    margin: 5px 190px 0px 50px;
+    background-color: red;
+}
