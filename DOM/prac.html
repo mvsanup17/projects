@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Movie Details</title>
+</head>
+<body>  
+	<script>
+		const movieName =  prompt("Enter name");
+		const starring =  prompt("Enter cast");
+		const language =  prompt("Enter language");
+		const ratings = {
+		  imdb: 9,
+		  rottenTomatoes: "90%"
+		};
+		document.write(`<h1>Movie Details</h1>`);
+		document.write(`<p><strong>Movie Name:</strong> ${movieName}</p>`);
+		document.write(`<p><strong>Starring:</strong> ${starring}</p>`);
+		document.write(`<p><strong>Language:</strong> ${language}</p>`);
+		document.write(`<p><strong>Ratings:</strong></p>`);
+		document.write(`<p>IMDb: ${ratings.imdb}</p>`);
+		document.write(`<p>Rotten Tomatoes: ${ratings.rottenTomatoes}</p>`);
+	</script>
+</body>
+</html>
