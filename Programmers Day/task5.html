@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic-Tac-Toe</title>
+  <style>
+    body {
+      background-color: #f0f0f0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      transition: background-color 0.5s ease;
+    }
+
+    .board {
+      display: grid;
+      grid-template-columns: repeat(3, 100px);
+      grid-gap: 5px;
+      width: 310px;
+    }
+
+    .cell {
+      width: 100px;
+      height: 100px;
+      text-align: center;
+      font-size: 36px;
+      border: 2px solid #000;
+      cursor: pointer;
+      background-color: #fff;
+      transition: background-color 0.3s ease;
+      color: #333;
+      font-weight: bold;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .cell:hover {
+      background-color: #eee;
+    }
+
+    .winner-red {
+      background-color: red;
+    }
+
+    .winner-green {
+      background-color: green;
+    }
+
+    #restart-button {
+      margin: 50px;
+      font-size: 18px;
+      cursor: pointer;
+      background-color: #4caf50;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    #restart-button:hover {
+      background-color: #45a049;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    .center-content {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="center-content">
+    <h1>Tic-Tac-Toe</h1>
+    <div class="board" id="board"></div>
+    <p id="winner"></p>
+    <div><button id="restart-button">Restart Game</button></div>
+  </div>
+
+  <script>
+    const board = document.getElementById("board");
+    const winnerDisplay = document.getElementById("winner");
+    const restartButton = document.getElementById("restart-button");
+
+    let currentPlayer = "X";
+    let gameBoard = ["", "", "", "", "", "", "", "", ""];
+
+    function checkWinner() {
+      const winningCombinations = [
+        [0, 1, 2],
+        [3, 4, 5],
+        [6, 7, 8],
+        [0, 3, 6],
+        [1, 4, 7],
+        [2, 5, 8],
+        [0, 4, 8],
+        [2, 4, 6],
+      ];
+
+      for (let combination of winningCombinations) {
+        const [a, b, c] = combination;
+        if (gameBoard[a] && gameBoard[a] === gameBoard[b] && gameBoard[a] === gameBoard[c]) {
+          return gameBoard[a];
+        }
+      }
+
+      if (!gameBoard.includes("")) {
+        return "Tie";
+      }
+
+      return null;
+    }
+
+    function handleClick(index) {
+      if (!gameBoard[index] && !checkWinner()) {
+        gameBoard[index] = currentPlayer;
+        renderBoard();
+        const winner = checkWinner();
+        if (winner) {
+          if (winner === "Tie") {
+            winnerDisplay.textContent = "It's a Tie!";
+            document.body.style.backgroundColor = '#000';
+          } else {
+            winnerDisplay.textContent = `Player ${winner} wins!`;
+            document.body.style.backgroundColor = '#87cefa';
+          }
+          restartButton.style.display = "block";
+        } else {
+          currentPlayer = currentPlayer === "X" ? "O" : "X";
+          document.body.style.backgroundColor = currentPlayer === "X" ? "#ff6347" : "#98fb98";
+        }
+      }
+    }
+
+    function restartGame() {
+      gameBoard = ["", "", "", "", "", "", "", "", ""];
+      currentPlayer = "X";
+      winnerDisplay.textContent = "";
+      renderBoard();
+      document.body.style.backgroundColor = "#f0f0f0";
+      restartButton.style.display = "none";
+    }
+
+    function renderBoard() {
+      board.innerHTML = "";
+      for (let i = 0; i < 9; i++) {
+        const cell = document.createElement("div");
+        cell.classList.add("cell");
+        cell.textContent = gameBoard[i];
+        cell.addEventListener("click", () => handleClick(i));
+        board.appendChild(cell);
+      }
+    }
+
+    renderBoard();
+
+    restartButton.addEventListener("click", restartGame);
+  </script>
+</body>
+</html>

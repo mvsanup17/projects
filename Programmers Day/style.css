@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ac{
+    background-color: #64CCC5;
+}
+
+.navbar{
+    padding: 0;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+@media(max-width:800px){
+    .ad{
+        background-color: #C38154;
+    }
+}
+
+.ba{
+    height: 550px;
+    background-image: url('../pics/scop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.xx{
+    height: 550px;
+    width: 400px;
+    color: white;
+}
+
+.col-md-12{
+    height: 125px;
+}
+
+.bb{
+    height: 500px;
+    background-image: url('../pics/dna.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bc{
+    height: 500px;
+}
+
+.bd{
+    height: 500px;
+}
+
+.be{
+    height: 500px;
+    background-image: url('../pics/scan.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.col-md-4{
+    height: 250px;
+}
+
+.bf{
+    height: 120px;
+    width: 120px;
+    background-image: url('../pics/med.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg{
+    height: 120px;
+    width: 120px;
+    background-image: url('../pics/steth.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bh{
+    height: 120px;
+    width: 120px;
+    background-image: url('../pics/pad.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bi{
+    height: 120px;
+    width: 120px;
+    background-image: url('../pics/beat.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bj{
+    height: 120px;
+    width: 120px;
+    background-image: url('../pics/germ.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bk{
+    height: 120px;
+    width: 120px;
+    background-image: url('../pics/women.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bl{
+    height: 400px;
+    background-image: url('../pics/check.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bm{
+    height: 400px;
+    background-image: url('../pics/den.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.col-md-6{
+    height: 500px;
+}
+
+.bu{
+    height: 300px;
+    background-image: url('../pics/consu.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bv{
+    height: 300px;
+}
+
+.dc{
+    height: 400px;
+    background-image: url('../pics/ques.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.dd{
+    height: 400px;
+}
+
+.cv{
+    height: 300px;
+}
+
+.cs{
+    height: 300px;
+}
+
+.ga{
+    height: 200px;
+    background-image: url('../pics/log.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gb{
+    height: 200px;
+    background-image: url('../pics/log1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gc{
+    height: 200px;
+    background-image: url('../pics/log2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gd{
+    height: 200px;
+    background-image: url('../pics/log3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.col-md-10{
+    height: 120px;
+}
+
+.col-md-2{
+    height: 120px;
+}
+
+.va{
+    height: 300px;
+}
+
+.vb{
+    height: 300px;
+}
+
+.vc{
+    height: 300px;
+}
+
+.vd{
+    height: 300px;
+}
+
+.hg{
+    background-color: #AE445A;
+}
+
+.nb{
+    background-color: #9400FF;
+}
